@@ -8,3 +8,21 @@ $small-device: 480px;
 *, *::after, *::before {
   box-sizing: border-box;
 }
+
+@mixin device($size) {
+  @if $size == large {
+    @media only screen and (min-width: #{$large-device}) {
+      @content;
+    }
+  }
+  @else if $size == medium {
+    @media only screen and (min-width: #{$medium-device}) and (max-width: #{$large-device - 1}) {
+      @content;
+    }
+  }
+  @else if $size == small {
+    @media only screen and (max-width: #{$medium-device - 1}) {
+      @content; 
+    }
+  }
+}
