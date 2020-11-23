@@ -80,3 +80,21 @@ $small-device: 480px;
     clear: both;
   }
 }
+
+@mixin container {
+  max-width: $large-device;
+  margin: 0 auto;
+  position: relative;
+  @include device(medium) {
+    max-width: $medium-device;
+  }
+  @include device(small) {
+    max-width: $small-device;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  @include clearfix;
+}
+.container {
+  @include container;
+}
