@@ -72,3 +72,11 @@ $small-device: 480px;
     margin-left: 0px;
   }
 }
+
+@mixin clearfix {
+  &::after, &::before {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
