@@ -37,3 +37,11 @@ $small-device: 480px;
   }
   @return $result;
 }
+
+@for $i from 1 through $cols {
+  .grid-#{$i} {
+    width: grid($i);
+  }
+}
+
+}
