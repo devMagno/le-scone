@@ -59,3 +59,16 @@ $small-device: 480px;
 [class^="grid-"] {
   @include grid-structure;
 }
+
+
+@for $i from 1 through $cols {
+  .offset-#{$i} {
+    margin-left: grid($i, offset);
+    @extend %offset;
+  }
+}
+@include device(small) {
+  %offset {
+    margin-left: 0px;
+  }
+}
