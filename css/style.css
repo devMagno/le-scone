@@ -104,3 +104,18 @@ table {
   width: calc(100% - 20px);
 }
 
+[class^="grid-"] {
+  float: left;
+  min-height: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 759px) {
+  [class^="grid-"] {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
