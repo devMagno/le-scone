@@ -98,3 +98,18 @@ $small-device: 480px;
 .container {
   @include container;
 }
+
+@mixin row {
+  position: relative;
+  margin-left: -$gutter / 2;
+  margin-right: -$gutter / 2;
+  @include device(small) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @include clearfix;
+}
+
+.row {
+  @include row;
+}
