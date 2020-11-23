@@ -1,0 +1,10 @@
+$cols: 12;
+$gutter: 20px;
+
+$large-device: 1200px;
+$medium-device: 760px;
+$small-device: 480px;
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
