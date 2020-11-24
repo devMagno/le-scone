@@ -20,7 +20,7 @@
 
 ---
 ## 📝 Licença
-
+O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/devMagno/le-scone/blob/main/LICENSE).
 
 ---
 **Desenvolvido com 🤍 por [Guilherme Magno](https://github.com/devmagno/).**
