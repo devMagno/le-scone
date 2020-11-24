@@ -1,0 +1,28 @@
+.footer {
+  padding: 20px 0;
+  background: $grey;
+  @include box-shadow(0 0 0 11px $grey);
+  p {
+    float: left;
+    color: $light-beige;
+    @include device(small) {
+      float: none;
+      text-align: center;
+    }
+    a {
+      color: $light-beige;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  a img {
+    float: right;
+    @include device(small) {
+      float: none;
+      margin: 20px auto;
+    }
+  }
+}

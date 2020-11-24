@@ -506,3 +506,44 @@ p, address {
 .contact-map img {
   width: 100%;
 }
+
+.footer {
+  padding: 20px 0;
+  background: #2A2426;
+  -webkit-box-shadow: 0 0 0 11px #2A2426;
+  -moz-box-shadow: 0 0 0 11px #2A2426;
+  box-shadow: 0 0 0 11px #2A2426;
+}
+
+.footer p {
+  float: left;
+  color: #EDECE4;
+}
+
+@media only screen and (max-width: 759px) {
+  .footer p {
+    float: none;
+    text-align: center;
+  }
+}
+
+.footer p a {
+  color: #EDECE4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
+
+.footer a img {
+  float: right;
+}
+
+@media only screen and (max-width: 759px) {
+  .footer a img {
+    float: none;
+    margin: 20px auto;
+  }
+}
