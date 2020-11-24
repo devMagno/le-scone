@@ -106,7 +106,7 @@ table {
 
 [class^="grid-"] {
   float: left;
-  min-height: 1;
+  min-height: 1px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -344,4 +344,71 @@ p, address {
 .intro-img {
   border: 10px solid #CBC6B9;
   width: 100%;
+}
+
+.menu {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 759px) {
+  .menu {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.menu-item {
+  margin-bottom: 60px;
+}
+
+.menu-item img {
+  border-radius: 50%;
+  border: 10px solid #CBC6B9;
+  position: absolute;
+  right: 0;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .menu-item img {
+    right: 120px;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  .menu-item img {
+    width: 120px;
+    margin-top: 0;
+  }
+}
+
+.menu-item h2 {
+  font-family: "Aref Ruqaa", "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+
+.menu-item li {
+  font-family: "PT Mono", Courier, monospace;
+  font-size: 1.125em;
+  line-height: 1.94444em;
+}
+
+.menu-item li span {
+  font-family: "Aref Ruqaa", "Times New Roman", Times, serif;
+  color: #988c77;
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  margin-right: 10px;
+  margin-left: -80px;
+}
+
+@media only screen and (max-width: 759px) {
+  .menu-item li span {
+    margin-left: 0px;
+    width: auto;
+  }
 }
