@@ -412,3 +412,97 @@ p, address {
     width: auto;
   }
 }
+
+.contact {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 759px) {
+  .contact {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.contact form label {
+  font-family: "PT Mono", Courier, monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  display: block;
+}
+
+.contact form input:not([type="button"]), .contact form textarea {
+  font-family: "PT Mono", Courier, monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  color: #2A2426;
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  border: 2px solid #988c77;
+  background: transparent;
+  outline: none;
+  margin-bottom: 1em;
+  transition: border .2s;
+}
+
+.contact form input:not([type="button"]):hover, .contact form input:not([type="button"]):focus, .contact form textarea:hover, .contact form textarea:focus {
+  border: 2px solid #CBC6B9;
+}
+
+.contact form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact form input.button {
+  font-family: "PT Mono", Courier, monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  outline: none;
+  cursor: pointer;
+  color: #988c77;
+  text-transform: uppercase;
+  border: 2px solid #988c77;
+  background: transparent;
+  display: block;
+  width: 200px;
+  padding-top: 5px;
+  -webkit-box-shadow: 5px 5px 0 -2px #CBC6B9, 5px 5px 0 0 #988c77;
+  -moz-box-shadow: 5px 5px 0 -2px #CBC6B9, 5px 5px 0 0 #988c77;
+  box-shadow: 5px 5px 0 -2px #CBC6B9, 5px 5px 0 0 #988c77;
+  transition: .3s;
+}
+
+.contact form input.button:hover, .contact form input.button:focus {
+  -webkit-box-shadow: 3px 3px 0 -2px #CBC6B9, 3px 3px 0 0 #988c77;
+  -moz-box-shadow: 3px 3px 0 -2px #CBC6B9, 3px 3px 0 0 #988c77;
+  box-shadow: 3px 3px 0 -2px #CBC6B9, 3px 3px 0 0 #988c77;
+}
+
+.contact-info {
+  color: #988c77;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-info {
+    float: right;
+    text-align: right;
+    margin-top: -3em;
+  }
+}
+
+.contact-map {
+  display: block;
+  -webkit-box-shadow: 0 0 0 10px #CBC6B9;
+  -moz-box-shadow: 0 0 0 10px #CBC6B9;
+  box-shadow: 0 0 0 10px #CBC6B9;
+  clear: both;
+}
+
+.contact-map img {
+  width: 100%;
+}
