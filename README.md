@@ -14,7 +14,9 @@
 
 ---
 ## 🖥️ Demonstração
+[![Le Scone](https://i.imgur.com/GAQmDWi.png "Clique para acessar o projeto")](https://devmagno.github.io/le-scone/ "Clique para acessar o projeto") 
 
+Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/le-scone/).
 
 ---
 ## 🔧 Como executar o projeto
