@@ -18,7 +18,14 @@
 
 ---
 ## 🔧 Como executar o projeto
+```bash
+# Clone o repositório
+git clone https://github.com/devMagno/le-scone
 
+# Entre no diretório
+cd le-scone
+```
+Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
 ---
 ## 📝 Licença
