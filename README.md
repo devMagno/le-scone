@@ -1,6 +1,6 @@
 # Le Scone 🍲
 <p align="center">
-<img src="https://i.imgur.com/koOhWMN.png" alt="Le Scone" title="Le Scone" width="200">
+<img src="https://i.imgur.com/koOhWMN.png" alt="Le Scone" title="Le Scone">
 </p>
 
 ## 📖 Sobre   
@@ -8,7 +8,9 @@
 
 ---
 ## 🚀 Tecnologias e ferramentas utilizadas
-
+- **HTML5**
+- **SASS** (convertido para CSS3)
+- **Scout App** (compilador do SASS)
 
 ---
 ## 🖥️ Demonstração
